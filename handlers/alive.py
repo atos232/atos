@@ -12,13 +12,14 @@ async def alivecmd(event):
     photo = 'https://graph.org/file/e25ef380020a3f3268624.mp4'
     me= await dyno.get_me()
     await dyno.send_file(chat , file=photo , caption=
-    "THE SHADOW USERBOT\n\n"
-    "Userbot is alive currently\n"
-    "userbot made by [SHADOW](https://t.me/{})\n"
-    "python : Python 3.11.2\n"
-    "Telethon : Telethon 1.28.5\n"
-    "BOT VERSION : 0.00.1".format(me.username)
-    )
+                         "THE SHADOW USERBOT\n\n"
+                         "Userbot is alive currently\n"
+                         "userbot made by [SHADOW](https://t.me/{})\n"
+                         "python : Python 3.11.2\n"
+                         "Telethon : Telethon 1.28.5\n"
+                         "BOT VERSION : 0.00.1\n"
+                         "REPO : [SHADOW USERBOT](https://github.com/SHADOW-UB/Shadow-Userbot)".format(me.username)
+                         )
 
 
 
