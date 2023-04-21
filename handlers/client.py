@@ -1,9 +1,9 @@
 from telethon import TelegramClient
 
-api_id = 1992385
-api_hash = "a470b85e27ed03b83571c42c499da412"
-bot_token = '5891017864:AAEsJkCGk5hQ-1AZh4Vm14qajhhbhXx9Z-M'
-id = 1864257459
-bot_username = '@shadow_sobot'
+api_id =  #API ID FROM API.TELEGRAM.ORG
+api_hash = ""#API HASH FROM API.TELEGRAM.ORG
+bot_token = ''#BOT_TOKEN FROM BOT FATHER
+id =  #UR OWN USER ID
+bot_username = '@'#BOT USERNAME FROM BOT FATHER
 
 client = TelegramClient('session', api_id , api_hash )
